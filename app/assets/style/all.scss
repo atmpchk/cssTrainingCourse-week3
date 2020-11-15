@@ -1,14 +1,11 @@
+@import "variables";
+@import "reset";
+@import "fonts";
+@import "commons";
+@import "header";
+@import "footer";
+
 $color: #00cc99;
-
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
-
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
 
 .box {
   width: 100px;
