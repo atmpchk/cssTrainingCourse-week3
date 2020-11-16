@@ -196,6 +196,8 @@ img {
         font-weight: 300;
         display: block;
         color: #FFFFFF; }
+      .footer .contact li a:hover {
+        text-decoration: underline; }
       @media screen and (max-width: 768px) {
         .footer .contact li {
           margin-bottom: 11px; }
