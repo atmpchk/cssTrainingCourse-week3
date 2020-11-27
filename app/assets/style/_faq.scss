@@ -86,15 +86,18 @@
       }
       .question {
         margin-bottom: 8px;
+        font-size: 16px;
+        line-height: 24px;
       }
       .answer {
         padding-left: 0;
-        li {
-          display: inline;
-          &:nth-child(3) {
-            margin-top: 21px;
-            display: block;
-          }
+        font-size: 14px;
+        line-height: 21px;
+        br {
+          content: '';
+        }
+        &:nth-child(3) {
+          margin-top: 21px;
         }
       }
     }
