@@ -30,7 +30,7 @@
       }
     }
   }
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1024px) {
     padding-left: 39px;
     padding-right: 19px;
     .nav {
@@ -54,6 +54,7 @@
       }
     }
     .nav {
+      width: 100%;
       flex-wrap: wrap;
       li {
         width: 50%;
