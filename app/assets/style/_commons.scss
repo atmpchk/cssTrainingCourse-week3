@@ -1,11 +1,11 @@
 .container {
   max-width: $container;
   margin: 0 auto;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     max-width: $container-md;
     padding: 0 39px;
   }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 767px) {
     max-width: $container-sm;
     padding: 0 15px;
   }
