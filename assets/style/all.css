@@ -66,15 +66,15 @@ body {
   font-family: 'Roboto', 'Noto Sans', sans-serif !important; }
 
 .container {
-  max-width: 1110px;
+  max-width: 1000px;
   margin: 0 auto; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     .container {
-      max-width: 690px;
+      max-width: 946px;
       padding: 0 39px; } }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 767px) {
     .container {
-      max-width: 345px;
+      max-width: 737px;
       padding: 0 15px; } }
 
 .d-flex {
@@ -118,13 +118,13 @@ body {
       padding: 40px 32px; }
       .header .nav a:hover {
         text-decoration: underline; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     .header {
       padding-left: 39px;
       padding-right: 19px; }
       .header .nav a {
         padding: 40px 20px; } }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 767px) {
     .header {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
@@ -139,6 +139,7 @@ body {
           height: 30px;
           margin: 0 auto; }
       .header .nav {
+        width: 100%;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
         .header .nav li {
@@ -152,10 +153,10 @@ body {
   background-color: #AA0601;
   padding-top: 16px;
   padding-bottom: 28px; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     .footer {
       padding-bottom: 40px; } }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 767px) {
     .footer {
       padding-bottom: 25px; } }
   .footer .footer-upper-block {
@@ -178,15 +179,15 @@ body {
         padding-left: 0; }
       .footer .nav a:hover {
         text-decoration: underline; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1024px) {
         .footer .nav a {
           padding: 24px 20px; } }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 767px) {
       .footer .nav {
         display: none; } }
   .footer .contact {
     margin-bottom: 24px; }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 767px) {
       .footer .contact {
         margin-top: 7px; } }
     .footer .contact li {
@@ -210,7 +211,7 @@ body {
         color: #FFFFFF; }
       .footer .contact li a:hover {
         text-decoration: underline; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1024px) {
         .footer .contact li {
           margin-bottom: 11px; }
           .footer .contact li .contact-icon {
@@ -222,7 +223,7 @@ body {
             font-size: 20px;
             line-height: 30px;
             font-weight: 300; } }
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 767px) {
         .footer .contact li {
           margin-bottom: 7px; }
           .footer .contact li .contact-icon {
@@ -243,26 +244,26 @@ body {
       margin-right: 32px; }
       .footer .social-link li:last-child {
         margin-right: 0; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
       .footer .social-link {
         margin-top: 24px; }
         .footer .social-link li {
           margin-right: 24px;
           width: 24px; } }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 767px) {
       .footer .social-link {
         margin-top: 8px; } }
   .footer hr {
     margin-top: 0;
     margin-bottom: 24px; }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 767px) {
       .footer hr {
         margin-bottom: 18px; } }
   .footer .footer-lower-block {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 767px) {
       .footer .footer-lower-block {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: reverse;
@@ -270,10 +271,10 @@ body {
                 flex-direction: row-reverse; } }
     .footer .footer-lower-block .logo {
       margin-right: 38px; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1024px) {
         .footer .footer-lower-block .logo {
           display: none; } }
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 767px) {
         .footer .footer-lower-block .logo {
           display: block;
           width: 46px;
@@ -294,7 +295,7 @@ body {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 767px) {
         .footer .footer-lower-block .copyright-terms {
           display: block; }
           .footer .footer-lower-block .copyright-terms p {
@@ -305,12 +306,12 @@ body {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 767px) {
         .footer .footer-lower-block .terms {
           display: block; } }
       .footer .footer-lower-block .terms li:first-child {
         margin-right: 62px; }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1024px) {
           .footer .footer-lower-block .terms li:first-child {
             margin-right: 24px; } }
       .footer .footer-lower-block .terms a {
@@ -319,7 +320,7 @@ body {
         line-height: 21px; }
         .footer .footer-lower-block .terms a:hover {
           text-decoration: underline; }
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 767px) {
           .footer .footer-lower-block .terms a {
             margin-bottom: 8px; } }
 
@@ -340,14 +341,14 @@ body {
   .banner .question-mark {
     width: 58px;
     padding: 11px 0; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     .banner h1 {
       font-size: 48px;
       margin-right: 16px; }
     .banner .question-mark {
       width: 48px;
       padding: 16px 0; } }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 767px) {
     .banner .faq-header {
       height: 143px; }
     .banner h1 {
@@ -374,13 +375,13 @@ body {
     line-height: 24px;
     max-width: 920px;
     padding-left: 95px; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     .faq-content {
       padding-top: 40px;
       padding-bottom: 64px; }
       .faq-content .question-and-answer .answer {
         padding-left: 59px; } }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 767px) {
     .faq-content {
       padding-top: 24px;
       padding-bottom: 36px; }
